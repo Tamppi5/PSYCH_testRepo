@@ -144,9 +144,3 @@
   Output: Citations are also in the Notes; see de Winter, J. C. F. (2013). Using the Student’s t-test with extremely small sample sizes. Practical Assessment, Research, and Evaluation, 18(10). doi.org/10.7275/E4R6-DJ05 and Delacre, M., Lakens, D., & Leys, C. (2017). Why Psychologists Should by Default Use Welch’s t-test Instead of Student’s t-test. International Review of Social Psychology, 30(1), 92–101. doi.org/10.5334/irsp.82
   
     
-- Class: mult_question
-  Output: Would you like to submit the log of this lesson to Google Forms so that your instructor may evaluate your progress?
-  AnswerChoices: Yes; No
-  CorrectAnswer: NULL
-  AnswerTests: submit_log()
-  Hint: hint
