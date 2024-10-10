@@ -228,9 +228,4 @@
 - Class: text
   Output: "And now we've tested homogeneity of variances in multiple ways - using levene_test() for categorical-focused models, and using bptest() to test the residuals of linear models. We considered how Levene's can be based on both the mean (good if not skewed) or median (robust and able to handle skewed data), but also reflected on Levene's limitations. In various other modules, we also address how some of our models are robust themselves to these violations (like ANOVA), while others can easily be addressed (robust standard errors)."
 
-#54
-- Class: mult_question
-  Output: Would you like to submit the log of this lesson to Google Forms so that your instructor may evaluate your progress?
-  AnswerChoices: Yes; No
-  AnswerTests: submit_log()
-  Hint: hint
+
