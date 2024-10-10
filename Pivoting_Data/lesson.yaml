@@ -92,9 +92,4 @@
 - Class: text
   Output: pivot_longer() and pivot_wider() are two workhorse functions for data scientists. The notes go through a few other examples of how you can use different functions to manipulate your data into the exact form you want. Combine this Module with Basic Tidyverse Verbs to really get a strong handle on coding in R.
   
-- Class: mult_question
-  Output: Would you like to submit the log of this lesson to Google Forms so that your instructor may evaluate your progress?
-  AnswerChoices: Yes; No
-  CorrectAnswer: NULL
-  AnswerTests: submit_log()
-  Hint: hint
+
