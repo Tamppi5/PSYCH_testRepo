@@ -160,10 +160,3 @@
   
 - Class: text
   Output: Great. We kept the whole discussion of the sum of squares type within the Notes, so be sure to check it out and the citations we provided for even more learning.
-  
-- Class: mult_question
-  Output: Would you like to submit the log of this lesson to Google Forms so that your instructor may evaluate your progress?
-  AnswerChoices: Yes; No
-  CorrectAnswer: NULL
-  AnswerTests: submit_log()
-  Hint: hint
