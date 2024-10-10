@@ -153,10 +153,4 @@
 #37
 - Class: text
   Output: In this lesson, we showed you two ways to calculate a within-subjects t-test. The way we recommend is through long datasets and pipe-friendly methods. This would require you to go over the Pivoting Datasets Module. If you don't have your data in the long format (multiple rows per participant), you should default to the clunkier Pair() method. 
-#40
-- Class: mult_question
-  Output: Would you like to submit the log of this lesson to Google Forms so that your instructor may evaluate your progress?
-  AnswerChoices: Yes; No
-  CorrectAnswer: NULL
-  AnswerTests: submit_log()
-  Hint: hint
+
