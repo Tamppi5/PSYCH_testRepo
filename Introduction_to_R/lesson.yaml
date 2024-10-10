@@ -281,11 +281,3 @@
 #52
 - Class: text
   Output: "Alright! That's about everything! We will frequently say take function X() and pass it three arguments, so you will want to ensure you understand what I'm saying!"
-
-#53
-- Class: mult_question
-  Output: Would you like to submit the log of this lesson to Google Forms so that your instructor may evaluate your progress?
-  AnswerChoices: Yes; No
-  CorrectAnswer: NULL
-  AnswerTests: submit_log()
-  Hint: hint
