@@ -186,10 +186,4 @@
 - Class: text
   Output: "Full citation for that work is - Osborne, J. (2019). Notes on the use of data transformations. Practical Assessment, Research, and Evaluation. 8(6). 10.7275/4vng-5608"
   
-  
-- Class: mult_question
-  Output: Would you like to submit the log of this lesson to Google Forms so that your instructor may evaluate your progress?
-  AnswerChoices: Yes; No
-  CorrectAnswer: NULL
-  AnswerTests: submit_log()
-  Hint: hint
+ 
