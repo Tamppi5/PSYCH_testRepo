@@ -125,9 +125,4 @@
 - Class: text
   Output: Great job. The help file states that magnitude is defined as .01-.05 as a small effect, .06-.13 as a medium effect, and .14 and higher as a large effect for partial eta-squared (see Cohen, 1988).
   
-- Class: mult_question
-  Output: Would you like to submit the log of this lesson to Google Forms so that your instructor may evaluate your progress?
-  AnswerChoices: Yes; No
-  CorrectAnswer: NULL
-  AnswerTests: submit_log()
-  Hint: hint
+
