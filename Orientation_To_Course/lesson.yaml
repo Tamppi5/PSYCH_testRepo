@@ -69,16 +69,4 @@
 - Class: text
   Output: We provide throughout the course all citations for any data we are using (all open access data) and any citations for any statistical choices we make.
   
-- Class: text
-  Output: We recommend that you go through each module twice. First, play through the module. Please read the instructions, consider what it asks, and try your best. If you are submitting this for a course, submit that to your professor (that'll come up at the end).
-
-- Class: text
-  Output: After you've done it once, do it again. But, this time, have your notes open. Take your notes along with the notes provided. The Notes.R will include all of the code you will use (and more) but won't contextualize it in terms of the studies analyzed in the course. 
-
-- Class: text
-  Output: Once you have done it twice, review the Notes you made and see how the functions work outside of a psychology dataset. Run the lines of code, read the Notes, and see if you can understand at a deeper level what is happening. 
-
-- Class: text
-  Output: And that's it! Combined with the Course Notes, your Notes, and a few swirl rounds, you'll be a pro in no time.
-  
 
