@@ -237,9 +237,3 @@
 - Class: text
   Output: And that's it! Remember, if we're doing a signed rank test, we want to find a way to tell R that we are using paired data. We taught this method through Pair(), but you could also include the DifferenceScore but set paired=TRUE. 
 
-- Class: mult_question
-  Output: Would you like to submit the log of this lesson to Google Forms so that your instructor may evaluate your progress?
-  AnswerChoices: Yes; No
-  CorrectAnswer: NULL
-  AnswerTests: submit_log()
-  Hint: hint
