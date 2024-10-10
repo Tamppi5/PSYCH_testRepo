@@ -14,11 +14,11 @@
   Script: Notes.R
   
 - Class: text
-  Output: "Hello! Welcome to PSYCH: Psychological Statistics You Can Handle"
+  Output: "Hello! Welcome to PSYCH: Psychological Statistics You Can Handle - adapted fro Engineering Psychology at Aalto"
 
 #2
 - Class: text
-  Output: "In this class, we're going to review rStudio. If you are using base R, please download rStudio."
+  Output: "In this lesson, we're going to review rStudio. If you are using base R, please download rStudio."
 
 #3
 - Class: text

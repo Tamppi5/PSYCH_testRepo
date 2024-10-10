@@ -19,13 +19,13 @@
   Output: "Before we compute the correlation matrix, let's remind ourselves of the assumptions for a Pearson's correlation: \n\n 1. Linearity: The relationship between the two variables should be linear. \n\n 2. Bivariate Normality: The two variables should be normally distributed.\n\n 3. Homoscedasticity: The variability in one variable should be the same at all levels of the other variable.\n\n 4. Independence: The pairs of variables should be independent of each other."
 
 - Class: text
-  Output: If these assumptions are violated, using Spearman's correlation might be more appropriate. Spearman's correlation does not require a linear relationship and is more robust against outliers. It measures the monotonic relationship between two variables, meaning it assesses how well the relationship between two variables can be described using a monotonic function.
+  Output: If these assumptions are violated, using Spearman's correlation might be more appropriate. Spearman's correlation does not require a linear relationship and is more robust against outliers. It measures the monotonic relationship between two variables, meaning it assesses how well the relationship between two variables can be described using a monotonic function, e.g., wether the ranks of two variables correspond.
 
 - Class: text
   Output: You generally see correlation matrices as the first table in a results section. It is good to report to assist in meta-analyses. 
 
 - Class: text
-  Output: For example, we can look at a short report a student of one of ours got published. 
+  Output: For example, we can look at a short report that has correlations in it. 
   
 - Class: text
   Output: The citation for this data is Marshall, M., & Carriere, K.R. (2023). To post or not to post- Companies supporting mental health relates to stronger consumer support. Current Psychology.
@@ -104,7 +104,7 @@
   Hint: Look at the top half of the correlation matrix for p values.
   
 - Class: cmd_question
-  Output: Finally, we can also use the psych library to get Cronbach's Alpha of a scale. We loaded a second dataset from Sarah's paper, where we selected only the variables that made up the General Health Questionnaire, which she used as a control. The data is called ghq. Pipe it into names to view the question names.
+  Output: Finally, we can also use the psych library to get Cronbach's Alpha of a scale. We loaded a second dataset, where we selected only the variables that made up the General Health Questionnaire, which they used as a control variable. The data is called ghq. Pipe it into names to view the question names.
   CorrectAnswer: ghq |> names()
   AnswerTests: omnitest(correctExpr='ghq |> names()')
   Hint: Pipe ghq into names().
@@ -116,6 +116,6 @@
   Hint: Pipe ghq into alpha()
 
 - Class: text
-  Output: There's a lot of output, but at the top, it shows that the raw_alpha is 0.89. That's all that is needed.
+  Output: There's a lot of output, but at the top, it shows that the raw_alpha is 0.89. That's all that is needed. It indicates a good internal consistency (overall high correlation between the item).
   
 

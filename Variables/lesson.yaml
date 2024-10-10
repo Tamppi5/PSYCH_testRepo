@@ -8,7 +8,7 @@
 
 #1
 - Class: text
-  Output: Hello! And welcome to the second lecture of Psychology Statistics. 
+  Output: Hello! 
 
 #2
 - Class: text
@@ -125,7 +125,7 @@
 #26 - Nominal
 
 - Class: text
-  Output: "Nominal variables can be remembered by Nominal = Name. They refer to qualitative variables - things like gender, your name, the color of the diamond."
+  Output: "Nominal variables can be remembered by Nominal = Name. They refer to qualitative variables - things like gender, your name, the color of the diamond expressed in categories."
 
 #27
 - Class: text
@@ -166,7 +166,7 @@
   
 #34
 - Class: text
-  Output: "Great! So we see that this variable, 'cut', has 5 levels, or ranks. There's fair (like small), good, very good, premium, and ideal."
+  Output: "Great! So we see that this variable, 'cut', has 5 levels, or ranks. There's fair (like small), good, very good, premium, and ideal.- those levels are not equidistant meaning that the difference between premium and ideal does not have to be the same as the difference between good and very good."
   
 #35 - Interval
 - Class: text
@@ -205,7 +205,7 @@
 
 #43
 - Class: text
-  Output: "Four feet is twice as high as two feet."
+  Output: "Four meters is twice as high as two meters."
   
 #44
 - Class: cmd_question
@@ -275,16 +275,3 @@
 - Class: text
   Output: "Great job!"
 
-- Class: mult_question
-  Output: Would you like to submit the log of this lesson to Google Forms so that your instructor may evaluate your progress?
-  AnswerChoices: Yes;No
-  CorrectAnswer: NULL
-  AnswerTests: submit_log()
-  Hint: hint
-
-- Class: mult_question
-  Output: Would you like to answer five short questions about this lesson to Google Forms so that your instructor may evaluate your opinion on this lesson and improve it for others?
-  AnswerChoices: Yes;No
-  CorrectAnswer: NULL
-  AnswerTests: submit_log_two()
-  Hint: hint

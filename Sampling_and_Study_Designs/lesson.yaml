@@ -8,9 +8,6 @@
 
 #1
 - Class: text
-  Output: Today, we will continue our discussion of validity and see how we can apply it to our own study designs.
-
-- Class: text
   Output: Two key terms we will discuss is random sampling and random assignment.
 
 - Class: text
@@ -21,7 +18,7 @@
   AnswerChoices: External Validity;Internal Validity;Reliability;Floor Effects
   CorrectAnswer: External Validity
   AnswerTests: omnitest(correctVal='External Validity')
-  Hint: It ensures that our results are generalizable. When we take care about generalizability, we are focusing on which type of validity?
+  Hint: It ensures that our results are generalizable. When we take care about generalizability outside of our test case, we are focusing on which type of validity?
 
 - Class: text
   Output: Random assignment is talking specifically about conditions. If we have a drug and a placebo pill, we would want to make sure that participants are randomly assigned to either drug or placeabo - that we aren't consciously or unconsciously putting all men into drug and all women into placeabo.
@@ -31,7 +28,7 @@
   AnswerChoices: External Validity;Internal Validity;Reliability;Floor Effects
   CorrectAnswer: Internal Validity
   AnswerTests: omnitest(correctVal='Internal Validity')
-  Hint: It ensures that our study controls for everything. In the above example, we might not be able to tell if it was the drug, or simply a gender difference. When we care about the internal workings of a study, what kind of validity are we trying to protect?
+  Hint: It ensures that our study controls for all possible confounds. In the above example, we might not be able to tell if it was the drug, or simply a gender difference. When we care about the internal workings of a study, what kind of validity are we trying to protect?
 
 - Class: text
   Output: Random sampling - giving everyone an equal shot of participating - is important. It can help reduce a biased sample.
@@ -105,7 +102,7 @@
   Output: However, there are many reasons why sometimes Within Subjects is not feasible. For example, if we want to test the policy implications of poverty, we can't ask people to both be in poverty for a year and then not be in poverty for a year.
 
 - Class: text
-  Output: Also, if the aim of the study becomes too obvious by doing multiple conditions, we might bias our results if the participants understand and notice the differences. 
+  Output: Also, if the aim of the study becomes too obvious by doing multiple conditions, we might bias our results if the participants understand and notice the differences - they can then react to the demands posed by the experimenter or study design which is often referred to as demand characteristics. 
 
 #30
 - Class: text
@@ -118,19 +115,7 @@
   Output: There are also Carryover Effects - where the exposure for one of the conditions is so strong it carries over to other conditions. For example, if I had you first drink coffee, then alcohol, then water, the effects of alcohol would carry over into the effects of drinking water.
   
 - Class: text
-  Output: We try to fix these issues by counter-balancing. Maybe some people receive A->B->C, others B->C->A, others C->A->B, others C->B->A. etc. If we present every possible order, then it is complete counterbalancing. If we only present some, we call it partial counterbalancing.
-
-#34
-- Class: mult_question
-  Output: Would you like to submit the log of this lesson to Google Forms so that your instructor may evaluate your progress?
-  AnswerChoices: Yes;No
-  CorrectAnswer: NULL
-  AnswerTests: submit_log()
-  Hint: hint
-
-- Class: mult_question
-  Output: Would you like to answer five short questions about this lesson to Google Forms so that your instructor may evaluate your opinion on this lesson and improve it for others?
-  AnswerChoices: Yes;No
-  CorrectAnswer: NULL
-  AnswerTests: submit_log_two()
-  Hint: hint
+  Output: We try to fix these issues by counter-balancing. Maybe some people receive A->B->C, others B->C->A, others C->A->B, others C->B->A. etc. If we present every possible order, then it is complete counterbalancing. If we only present some, we call it partial counterbalancing. 
+  
+ - Class: text
+  Output: For complete counterbalancing, the number of possibilities can grow very quickly. For example, if there are 5 conditions (A, B, C, D, E), complete counterbalancing would require presenting every possible order of these conditions. The total number of sequences would be 5! (5 factorial), which equals 120 different orders. For 10 conditions, the number of possible orders becomes 10! = 3,628,800, which is unfeasibly large for most experiments.

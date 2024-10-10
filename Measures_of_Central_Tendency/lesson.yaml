@@ -254,19 +254,3 @@
   Output: "There is of course also an function we can use to get the same answer. Pass sample_double into the function mean() now."
   CorrectAnswer: mean(sample_double)
   AnswerTests: omnitest(correctExpr='mean(sample_double)')
-
-#50
-- Class: mult_question
-  Output: Would you like to submit the log of this lesson to Google Forms so that your instructor may evaluate your progress?
-  AnswerChoices: Yes;No
-  CorrectAnswer: NULL
-  AnswerTests: submit_log()
-  Hint: hint
-
-#51
-- Class: mult_question
-  Output: Would you like to answer five short questions about this lesson to Google Forms so that your instructor may evaluate your opinion on this lesson and improve it for others?
-  AnswerChoices: Yes;No
-  CorrectAnswer: NULL
-  AnswerTests: submit_log_two()
-  Hint: hint

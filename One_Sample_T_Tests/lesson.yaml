@@ -21,10 +21,8 @@
   Output: "There are two main assumptions for a one-sample t-test. \n\n (1) The data is randomly sampled from the population. \n\n (2) The variable is normally distributed in the population."
 
 - Class: text
-  Output: In psychology, we generally utilize a one-sample t-test to compare against a scale midpoint to show more agreement with some hypothesized value. In my work, we ask people, "How much do you support human rights?" on a scale of 1 (Strongly Not Support) to 7 (Strongly Support)". We then use a one-sample t-test against the hypothesized mean of 4 to show that our participants *do* support human rights more than the midpoint (Neither not support nor support).
-  
-- Class: text
-  Output: However, we also could pit two endpoints against themselves and ask where participants fall. Like when those movies have two people claiming to be the dog's owner, and they stand on opposite sides of the dog and call to it -- which way does the dog run -- to the left or right? This could be measured as a 1 sample t-test (comparing against the dog not choosing either and lying down in the middle).
+  Output: In psychology, we generally utilize a one-sample t-test to compare against a scale midpoint to show more agreement with some hypothesized value, e.g. how much you like a digital service (1 to 7; Bad = 1; 7 = good; midpoint at 3 = neutral)."
+
 
 - Class: text
   Output: In one study, researchers wanted to test how people thought about their purchases and how they define them.

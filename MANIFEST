@@ -7,13 +7,16 @@ Sampling_and_Study_Design
 Measures_of_Central_Tendency
 Measures_of_Variability
 One_Sample_T_Tests
-Testing_EqualVariances
-Testing_Nonnormality
 Two_Sample_T_Tests
-Welchs_Two_Sample_T_Test
 Paired_Samples_T_Tests
+Correlation
+GGPlots_GroupedBarPlot
+GGPlots_ViolinPlots
 Validity_&_Reliability
 Validity_Part_2
+Testing_EqualVariances
+Testing_Nonnormality
+Welchs_Two_Sample_T_Test
 Mann-Whitney_U_Test
 Wilcoxon_SignRank
 One_Way_ANOVA_[Between]
@@ -21,11 +24,8 @@ One_Way_ANOVA_[Within]
 Kruskal_Wallis_ANOVA
 Two_Way_ANOVA_[Between]
 Repeated_Measures_ANOVA
-Correlation
 Regression
 Chi_Square
 Pivoting_Data
-GGPlots_GroupedBarPlot
-GGPlots_ViolinPlots
 
 
