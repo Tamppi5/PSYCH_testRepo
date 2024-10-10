@@ -170,9 +170,4 @@
 - Class: text
   Output: Just because your answer is different doesn't require that the statistics within the text are wrong. You both are right - you just have different assumptions and understandings about the data.
   
-- Class: mult_question
-  Output: Would you like to submit the log of this lesson to Google Forms so that your instructor may evaluate your progress?
-  AnswerChoices: Yes; No
-  CorrectAnswer: NULL
-  AnswerTests: submit_log()
-  Hint: hint
+
