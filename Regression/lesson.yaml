@@ -145,9 +145,3 @@
 - Class: text
   Output: There's so much else to cover, but this is a good primer. Keep practicing interpreting regression output - remember, a one unit change in X is related to an [estimate] change in Y.
   
-- Class: mult_question
-  Output: Would you like to submit the log of this lesson to Google Forms so that your instructor may evaluate your progress?
-  AnswerChoices: Yes; No
-  CorrectAnswer: NULL
-  AnswerTests: submit_log()
-  Hint: hint
