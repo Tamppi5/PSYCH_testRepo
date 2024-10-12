@@ -12,14 +12,11 @@ This course is recommended to be run in RStudio. Please download R- https://www.
 This course requires the installation of the swirl package. Once RStudio has loaded, type the following into the console: 
 
     install.packages("swirl")
-    library(swirl)
-    install_course("PSYCH")
-    swirl()
     
 You can also directly install from github with the following code:
 
     library(swirl)
-    install_course_github("krcarriere", "PSYCH")
+    install_course_github("RobinWelsch", "PSYCH")
     swirl()
 
 ## For Teachers
