@@ -123,6 +123,6 @@
   Hint: Try Sharks |> kruskal_effsize(NegativeRatings ~ Condition) . Maybe you forgot the s in NegativeRatings?
 
 - Class: text
-  Output: Great job. The help file states that magnitude is defined as .01-.05 as a small effect, .06-.13 as a medium effect, and .14 and higher as a large effect for partial eta-squared (see Cohen, 1988).
+  Output: Great job. The help file states that magnitude is defined as .01-.05 as a small effect, .06-.13 as a medium effect, and .14 and higher as a large effect for partial eta-squared (see Cohen, 1988). However effect size classifications like these need to be considered in context. 
   
 

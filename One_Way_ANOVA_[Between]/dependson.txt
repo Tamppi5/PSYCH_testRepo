@@ -7,3 +7,4 @@ multcompView
 emmeans
 dplyr
 base64enc
+apa

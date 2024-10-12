@@ -148,3 +148,5 @@
 - Class: text
   Output: And that's a one way ANOVA! As a review, to run an ANOVA, you create a linear model and then use the anova() wrapper on it. To test for post-hocs, use emmeans([variable]) |> pairs(). 
 
+
+#todo add apa package and eta squred for effect size metrics, also add alpha correction

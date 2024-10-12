@@ -131,7 +131,7 @@
   Hint: Try pain |> pairwise_t_test(Rotation ~ Feedback, paired=TRUE, pool.sd=FALSE, p.adjust.method = "bonferroni") |> select(-.y.)
 
 - Class: text
-  Output: It's not 100% clear that our or their results are more 'correct'. Notice that while our lmer() function gets smaller t.ratio statistics than their pairwise_t_test() (3.155 & 3.002 v 3.900 & 3.260), we also show that the other comparison, we find a bigger effect (6.156 v 5.010). 
+  Output: It's not 100% clear that our or their results are more 'correct', emmeans just works differently. Notice that while our lmer() function gets smaller t.ratio statistics than their pairwise_t_test() (3.155 & 3.002 v 3.900 & 3.260), we also show that the other comparison, we find a bigger effect (6.156 v 5.010). 
   
 - Class: text
   Output: This dataset itself is just a bit odd, that's all. The 'problem' with the data, if we want to call it a problem, is that the data has been averaged within each person so that Accurate is always 1. Statistics tend to break slightly when there is no variation -- which is why you might be seeing some red text pop up while you have been analyzing this. 
