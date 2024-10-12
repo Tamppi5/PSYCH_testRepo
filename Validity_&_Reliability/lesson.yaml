@@ -10,7 +10,7 @@
 
 #1
 - Class: text
-  Output: Welcome to this third class. Today, we're going to talk about how we can understand different operational definitions.
+  Output: Let's talk about reliability and validity today.
 
 #2
 - Class: text
@@ -27,6 +27,7 @@
 #6  
 - Class: text
   Output: and
+
 #7  
 - Class: text
   Output: Valid - The measure accurately accesses what it claims to measure.
@@ -59,7 +60,7 @@
 
 #11
 - Class: text
-  Output: "First, let's break down reliability. In this class, we will focus on 3 types of reliability. They are: \n\n Interrater reliability \n\n Test-retest reliability \n\n and \n\n Internal consistency reliability "
+  Output: "First, let's break down reliability. Here, we will focus on 3 types of reliability. They are: \n\n Interrater reliability \n\n Test-retest reliability \n\n and \n\n Internal consistency reliability "
   
 #12
 - Class: text
@@ -81,7 +82,7 @@
   
 #15
 - Class: text
-  Output: "Test-retest reliability is testing the same measure on the same participant multiple times. Typically, we like about .80 correlation, but that number is debated and usually anything above .7 is still publishable."
+  Output: "Test-retest reliability is testing the same measure on the same participant multiple times. Depending on the context the correlation has to pass high standards,e.g., diagnostic criteria need a high test-retest reliability. Note, however, that correlations can be limited and sometimes we want to look at the raw-data of test and retest (i.e. with a Bland-Altman plot; which goes beyond our lecture). "
 
 #16
 - Class: text
@@ -131,9 +132,6 @@
 #26
 - Class: text
   Output: "This is called ceiling effects - our scale is clearly restricted on the upper bounds and doesnt provide the full range of answers we'd like to see."
-
-- Class: text
-  Output: "It is restricted to upper values because it would be very hard not to do well on this quiz. So, we'd probably not see people fail this quiz. Instead, everyone would score a 100."
 
 #27
 - Class: text
@@ -185,16 +183,3 @@
 - Class: text
   Output: "It's also very hard to measure exactly what we want to measure as psychologists. It is up to you, as a researcher, to provide strong theoretical reasons why you think heart rate is a good measure of IQ, and, it is for us, as readers, to debate and critically consider if they are measuring what they think they are measuring."
 
-- Class: mult_question
-  Output: Would you like to submit the log of this lesson to Google Forms so that your instructor may evaluate your progress?
-  AnswerChoices: Yes;No
-  CorrectAnswer: NULL
-  AnswerTests: submit_log()
-  Hint: hint
-
-- Class: mult_question
-  Output: Would you like to answer five short questions about this lesson to Google Forms so that your instructor may evaluate your opinion on this lesson and improve it for others?
-  AnswerChoices: Yes;No
-  CorrectAnswer: NULL
-  AnswerTests: submit_log_two()
-  Hint: hint

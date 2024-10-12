@@ -19,7 +19,7 @@
   Output: "In the modules, we'll review how important these assumptions are,  the limitations of the nonparametric tests, and even the tests that we'll talk about today."
 
 - Class: text
-  Output: "There are three main ways we can test for non-normality. \n\n 1. QQPlots (A visual test) \n\n 2. Multiple histograms (A visual test) \n\n 3. Shapiro-Wilk Test. "
+  Output: "There are three main ways we can test for non-normality. \n\n 1. QQPlots (A visual test) \n\n 2. Multiple histograms (A visual test) \n\n 3. Shapiro-Wilk Test (or d'agostino test). "
 
 - Class: text
   Output: The first one we will go over is a QQPlot. 
@@ -57,10 +57,10 @@
   Hint: qqline(Stickers$Difference.Kept)
   
 - Class: text
-  Output: Great. If the data were normal, the points would be hugging the line.
+  Output: Great. If the data were normal, the points would be surround the line.
 
 - Class: mult_question
-  Output: "Do you think these data points hug the line well? "
+  Output: "Do you think these data points surround the line well? "
   AnswerChoices: Yes; No
   CorrectAnswer: No
   AnswerTests: omnitest(correctVal='No')
@@ -157,7 +157,7 @@
   Output: The Shapiro-Wilk test is probably one of the most well-known and used tests for non-normality. However, it is very limited - small sample sizes cause it to have not enough power to detect non-normality, but too large sample sizes will also be rejected for non-normality. 
  
 - Class: text
-  Output: There are other tests, such as the Kolmogorov-Smirnov test, but Shapiro-Wilk has been demonstrated to have the most power, so we focus purely on Shapiro-Wilk.
+  Output: There are other tests, such as the Kolmogorov-Smirnov test or the d'agost test, but Shapiro-Wilk has been demonstrated to have the most power for typical psychological studies, so we focus purely on Shapiro-Wilk.
 
 - Class: text
   Output: For more information, see Razali, N. M., Wah, Y. B. (2011). Power comparisons of Shapiro-Wilk, Kolmogorov-Smirnov, Lilliefors, and Anderson-Darling tests. Journal of Statistical Modeling and Analytics. 2(1), 21-33.

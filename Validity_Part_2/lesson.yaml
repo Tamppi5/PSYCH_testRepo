@@ -6,14 +6,8 @@
   Organization: Georgetown University
   Version: 2.4.3
 
-#91316 and 91516 and 92016
-#1
 - Class: text
-  Output: "Welcome to this class. Today, we're going to continue our discussion on validity."
-#2
-
-- Class: text
-  Output: "We will discuss the differences of internal and external validity."
+  Output: "We will now discuss the differences of internal and external validity."
 
 #3
 - Class: text
@@ -144,21 +138,3 @@
   AnswerChoices: Is our class representative of all justice classes?;Was our local sample representative of the greater population?;Were people walking on the street the best representative sample of drivers?;All of the choices
   CorrectAnswer: All of the choices
   AnswerTests: omnitest(correctVal="All of the choices")
-
-#
-- Class: text
-  Output: "End!"
-
-- Class: mult_question
-  Output: Would you like to submit the log of this lesson to Google Forms so that your instructor may evaluate your progress?
-  AnswerChoices: Yes;No
-  CorrectAnswer: NULL
-  AnswerTests: submit_log()
-  Hint: hint
-
-- Class: mult_question
-  Output: Would you like to answer five short questions about this lesson to Google Forms so that your instructor may evaluate your opinion on this lesson and improve it for others?
-  AnswerChoices: Yes;No
-  CorrectAnswer: NULL
-  AnswerTests: submit_log_two()
-  Hint: hint
