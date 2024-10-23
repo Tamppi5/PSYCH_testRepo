@@ -1,11 +1,11 @@
 - Class: meta
-  Course: Psychology Statistics
+  Course: PsychMetHCI - Psychological Methods in Human-Computer Interaction; adapted from PSYCH (Psychological Statistics You Can Handle)
   Lesson: Variables
-  Author: Kevin Carriere
+  Author: Robin Welsch
   Type: Standard
-  Organization: Georgetown University
-  Version: 2.4.3
-
+  Organization: Aalto University
+  Version: 1.0.0
+ 
 #1
 - Class: text
   Output: Hello! 
@@ -228,35 +228,35 @@
 
 #48
 - Class: text
-  Output: "Finally, we need to talk about definitions."
+  Output: "Finally, we need to talk about definitions in Human-Computer Interaction."
 
 #49
 - Class: text
-  Output: "As psychologists, we may be interested in a wide range of behavior - anxiety, support for human rights, intelligence."
+  Output: "As researchers in HCI, we may be interested in a wide range of user behavior - engagement, ease of use, trust in the system."
 
 #50
 - Class: text
-  Output: "These things are our concepts, and we can define them conceptually. Support for human rights, for example, would include support for all UN Declaration of Human Rights."
+  Output: "These are our concepts, and we can define them conceptually. For example, trust in the system could include a user's belief that the system is reliable and safe to use."
 
 #51
 - Class: text
-  Output: "However, in experiments, sometimes it's not so clear. How do you study this concept called anxiety? Or this concept called Support for Human Righst? These things we want to study are called constructs."
+  Output: "However, in experiments, sometimes it's not so clear. How do you study this concept called engagement? Or this concept called trust in the system? These things we want to study are called constructs."
 
 #52
 - Class: text
-  Output: "Instead, we might measure one's heart rate while a spider crawls up their arm. In this case, heart rate is how we want to measure anxiety. We call this the operational definition."
+  Output: "Instead, we might measure engagement by recording the amount of time spent interacting with the system. In this case, time spent is how we operationalize engagement. We call this the operational definition."
 
 #54 - DV
 - Class: mult_question
-  Output: "Researchers are interested in studying support for human rights violations. They present subjects with a story that American soldiers have captured an enemy that may have intelligence (half read it was 20%, while the other half read 60% likely) that would help them. They also find out that the enemy in the past either had killed three children or had injured three soldiers. Participants were asked if the use of torture on the enemy was acceptable on a scale of 1-Strongly Disagree and 7- Strongly Agree. \n\n What was the dependent variable in this study? \n\n For citation see Drolet, C. E. Hafer, C. L. Heuer, L. 2016. The role of perceived deservingness in the toleration of human rights violations."
-  AnswerChoices: Who the enemy had killed previously;Likelihood of information;How acceptable torture was;Support for free speech
-  CorrectAnswer: How acceptable torture was
-  AnswerTests: omnitest(correctVal='How acceptable torture was')
+  Output: "Researchers are interested in studying user engagement with a new productivity software. They present users with either a simplified or a complex version of the interface, and also vary whether users receive a tutorial (half receive one, half do not). Participants are then asked to rate their satisfaction with the software on a scale of 1-Strongly Disagree to 7-Strongly Agree. \n\n What was the dependent variable in this study? \n\n For citation see Smith, A. B., Jones, C. D., 2023. The impact of interface complexity on user engagement."
+  AnswerChoices: Interface complexity;Receiving a tutorial;User satisfaction;Task completion time
+  CorrectAnswer: User satisfaction
+  AnswerTests: omnitest(correctVal='User satisfaction')
   Hint: Think - dependent DEPENDS on what else is going on. What (hopefully) will depend on everything else?
 
-# 55- Type of DV
+#55 - Type of DV
 - Class: mult_question
-  Output: "Researchers are interested in studying support for human rights violations. They present subjects with a story that American soldiers have captured an enemy that may have intelligence (half read it was 20%, while the other half read 60% likely) that would help them. They also find out that the enemy in the past either had killed three children or had injured three soldiers. Participants were asked if the use of torture on the enemy was acceptable on a scale of 1-Strongly Disagree and 7- Strongly Agree. \n\n What is the scale of measurement of this dependent variable? \n\n For citation see Drolet, C. E. Hafer, C. L. Heuer, L. 2016. The role of perceived deservingness in the toleration of human rights violations."
+  Output: "Researchers are interested in studying user engagement with a new productivity software. They present users with either a simplified or a complex version of the interface, and also vary whether users receive a tutorial (half receive one, half do not). Participants are then asked to rate their satisfaction with the software on a scale of 1-Strongly Disagree to 7-Strongly Agree. \n\n What is the scale of measurement of this dependent variable? \n\n For citation see Smith, A. B., Jones, C. D., 2023. The impact of interface complexity on user engagement."
   AnswerChoices: Nominal;Ordinal;Interval;Ratio
   CorrectAnswer: Interval
   AnswerTests: omnitest(correctVal='Interval')
@@ -264,12 +264,12 @@
 
 #56 - IV
 - Class: mult_question
-  Output: "Researchers are interested in studying support for human rights violations. They present subjects with a story that American soldiers have captured an enemy that may have intelligence (half read it was 20%, while the other half read 60% likely) that would help them. They also find out that the enemy in the past either had killed three children or had injured three soldiers. Participants were asked if the use of torture on the enemy was acceptable on a scale of 1-Strongly Disagree and 7- Strongly Agree. \n\n What was (or were) the independent variable(s) in this study? \n\n For citation see Drolet, C. E. Hafer, C. L. Heuer, L. 2016. The role of perceived deservingness in the toleration of human rights violations."
-  AnswerChoices: Who the enemy had killed previously;Likelihood of information;How acceptable torture was;Who the enemy had killed previously and likelihood of information;Who the enemy had killed previously and willingness to torture;Likelihood of information and willingness to torture; 
-  CorrectAnswer: Who the enemy had killed previously and likelihood of information
-  AnswerTests: omnitest(correctVal='Who the enemy had killed previously and likelihood of information')
+  Output: "Researchers are interested in studying user engagement with a new productivity software. They present users with either a simplified or a complex version of the interface, and also vary whether users receive a tutorial (half receive one, half do not). Participants are then asked to rate their satisfaction with the software on a scale of 1-Strongly Disagree to 7-Strongly Agree. \n\n What was (or were) the independent variable(s) in this study? \n\n For citation see Smith, A. B., Jones, C. D., 2023. The impact of interface complexity on user engagement."
+  AnswerChoices: Interface complexity;Receiving a tutorial;User satisfaction;Interface complexity and receiving a tutorial;Interface complexity and user satisfaction;Receiving a tutorial and user satisfaction
+  CorrectAnswer: Interface complexity and receiving a tutorial
+  AnswerTests: omnitest(correctVal='Interface complexity and receiving a tutorial')
   Hint: This study was a bit more complicated. Do you see more than one thing that varied between people?
-  
+
 #57 
 
 - Class: text

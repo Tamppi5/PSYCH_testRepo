@@ -1,11 +1,11 @@
 - Class: meta
-  Course: Psychology Statistics
+  Course: PsychMetHCI - Psychological Methods in Human-Computer Interaction; adapted from PSYCH (Psychological Statistics You Can Handle)
   Lesson: Measures of Central Tendency
-  Author: Kevin Carriere
+  Author: Robin Welsch
   Type: Standard
-  Organization: Georgetown University
-  Version: 2.4.3
-
+  Organization: Aalto University
+  Version: 1.0.0
+ 
 #1
 - Class: text
   Output: "In this class, we will review how we can understand our data - how we can describe this data that we have."
@@ -254,3 +254,27 @@
   Output: "There is of course also an function we can use to get the same answer. Pass sample_double into the function mean() now."
   CorrectAnswer: mean(sample_double)
   AnswerTests: omnitest(correctExpr='mean(sample_double)')
+
+#50 - Mode
+- Class: mult_question
+  Output: "Which of the following best describes when it is most appropriate to use the mode as a measure of central tendency?"
+  AnswerChoices: When the data is nominal; When the data is skewed; When there are no outliers; When all values are the same
+  CorrectAnswer: When the data is nominal
+  AnswerTests: omnitest(correctVal='When the data is nominal')
+  Hint: Mode is used when we have categorical data without any ranking.
+
+#51 - Median Calculation
+- Class: mult_question
+  Output: "Which measure of central tendency is most appropriate to use when there are extreme outliers in the dataset?"
+  AnswerChoices: Mean; Median; Mode; Range
+  CorrectAnswer: Median
+  AnswerTests: omnitest(correctVal='Median')
+  Hint: Median is less influenced by extreme values compared to the mean.
+
+#52 - Mean Sensitivity
+- Class: mult_question
+  Output: "In a positively skewed distribution, which measure of central tendency is likely to be the highest?"
+  AnswerChoices: Mean; Median; Mode; All are equal
+  CorrectAnswer: Mean
+  AnswerTests: omnitest(correctVal='Mean')
+  Hint: The mean is pulled in the direction of the skew, while the median and mode are less affected.

@@ -1,11 +1,11 @@
 - Class: meta
-  Course: PSYCH - Psychological Statistics You Can Handle
+  Course: PsychMetHCI - Psychological Methods in Human-Computer Interaction; adapted from PSYCH (Psychological Statistics You Can Handle)
   Lesson: Introduction to R
-  Author: Kevin R. Carriere & Jason Kilgore
+  Author: Robin Welsch
   Type: Standard
-  Organization: Washington & Jefferson College
-  Version: 3.0.0
-
+  Organization: Aalto University
+  Version: 1.0.0
+ 
 #1
 - Class: script
   Output: To save the notes for this module, copy and paste the code provided into your RNotebook. Type submit() when you have finished saving these notes. 
@@ -13,9 +13,6 @@
   Hint: "Don't change anything, just type submit(). If you did and you don't know how to fix it, just type skip(), and you'll be all set."
   Script: Notes.R
   
-- Class: text
-  Output: "Hello! Welcome to PSYCH: Psychological Statistics You Can Handle - adapted fro Engineering Psychology at Aalto"
-
 #2
 - Class: text
   Output: "In this lesson, we're going to review rStudio. If you are using base R, please download rStudio."
@@ -168,10 +165,10 @@
 
 #32
 - Class: cmd_question
-  Output: "Let's store a new value called class_name. We'll set it to \"Psychology\" Try this now."
-  CorrectAnswer: class_name <- "Psychology"
-  AnswerTests: omnitest(correctExpr='class_name <- "Psychology"')
-  Hint: Try typing class_name <- "Psychology". 
+  Output: "Let's store a new value called class_name. We'll set it to \"PsychMetHCI\" Try this now."
+  CorrectAnswer: class_name <- "PsychMetHCI"
+  AnswerTests: omnitest(correctExpr='class_name <- "PsychMetHCI"')
+  Hint: Try typing class_name <- "PsychMetHCI". 
 
 #33
 - Class: text

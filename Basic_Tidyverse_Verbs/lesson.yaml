@@ -1,10 +1,11 @@
 - Class: meta
-  Course: PSYCH - Psychological Statistics You Can Handle
-  Lesson: Basic Tidyverse Verbs
-  Author: Kevin R. Carriere & Jason Kilgore
+  Course: PsychMetHCI - Psychological Methods in Human-Computer Interaction; adapted from PSYCH (Psychological Statistics You Can Handle)
+  Lesson: Tidyverse Basics
+  Author: Robin Welsch
   Type: Standard
-  Organization: Washington & Jefferson College
-  Version: 3.0.0
+  Organization: Aalto University
+  Version: 1.0.0
+ 
 
 #1
 - Class: script
@@ -26,13 +27,13 @@
   Output: The pipe operator (|>) provides a way for us to do multiple functions in a more readable way.
 
 - Class: text
-  Output: When you see a pipe (|> or %>%), you should read this as "and then." So, the code data |> head() reads, "Take our data and then use head() on it." We will be using what is known as the base pipe (|>) throughout this module. The original pipe, %>%, comes from the magrittr package (a tidy package). We won't get you bogged down into the differences (shrinking every update!) but note that the base R pipe (|>) is quickly becoming the standard.
+  Output: When you see a pipe (|> or %>%), you should read this as "and then." So, the code data |> head() reads, "Take our data and then use head() on it." We will be using what is known as the base pipe (|>) throughout this module. The original pipe, %>%, comes from the magrittr package (a tidy package). 
 
 - Class: text
   Output: The second goal (we get more into this goal in our Pivoting Data Module) is to ensure that a tidy dataset should have 1 row for every participant-observation. 
   
 - Class: cmd_question
-  Output: Let's start our understanding of verbs and nouns by loading a dataset. R has many pre-loaded datasets for practice, and we'll use one of the most common ones, iris, for this module. Please create a new object called data and store (<-) the object iris to it.  
+  Output: Let's start our understanding of verbs and nouns by loading a dataset. R has many pre-loaded datasets for practice, and we'll use one of the most common ones, iris, for this lesson. Please create a new object called data and store (<-) the object iris to it.  
   CorrectAnswer: data <- iris
   AnswerTests: omnitest(correctExpr='data <- iris')
   Hint: Try data <- iris.
@@ -52,7 +53,7 @@
   Hint: What one shows first?
   
 - Class: text
-  Output: Now, many times, you may be handling datasets with hundreds of variables! That might be overwhelming, or you should do an analysis on a select few of those variables (see our Correlation module). 
+  Output: Now, many times, you may be handling datasets with hundreds of variables! That might be overwhelming. Often, we want to have subsets of a larger dataframe to work with. 
 # Select
 
 - Class: cmd_question

@@ -1,18 +1,15 @@
 - Class: meta
-  Course: Psychology Statistics
+  Course: PsychMetHCI - Psychological Methods in Human-Computer Interaction; adapted from PSYCH (Psychological Statistics You Can Handle)
   Lesson: Types of Research
-  Author: Kevin R. Carriere
+  Author: Robin Welsch
   Type: Standard
-  Organization: Georgetown University
-  Version: 2.4.3
-
-#1
-- Class: text
-  Output: Hello! 
+  Organization: Aalto University
+  Version: 1.0.0
+ 
 
 #2
 - Class: text
-  Output: This class is focused on the various types of study designs we can do as researchers. 
+  Output: This lesson is focused on the various types of study designs we can do as researchers. 
 
 #3
 - Class: mult_question
@@ -105,7 +102,7 @@
   Output: "This is called between-groups research."  
 
 - Class: cmd_question
-  Output: For fun, I've made up some fake data to examine this question. To see a graph of the results, type differential_graph. 
+  Output: For fun, we have made up some fake data to examine this question. To see a graph of the results, type differential_graph. 
   CorrectAnswer: differential_graph
   AnswerTests: omnitest(correctExpr='differential_graph')
   Hint: Type 'differential_graph' without quotes. 
@@ -157,27 +154,27 @@
 
 - Class: text
   Output: Great! Let's review.
-
+  
 - Class: mult_question
-  Output: Researchers hypothesize that Republicans have stronger authortarianism scores than Non-Republicans. They recruit 30 Republicans and 30 controls and compare their scores on an authortarianism scale.
-  AnswerChoices: Naturalistic Observation;Case Study Research;Logical Research;Correlational Research;Between-Groups Research;Experimental Research 
+  Output: Researchers hypothesize that users interacting with a personalized recommendation system will have higher satisfaction scores compared to users with a generic recommendation system. They recruit 50 users and assign them to either a personalized or generic recommendation system, then compare their satisfaction scores.
+  AnswerChoices: Naturalistic Observation;Case Study Research;Logical Research;Correlational Research;Between-Groups Research;Experimental Research
   CorrectAnswer: Between-Groups Research
   AnswerTests: omnitest(correctVal="Between-Groups Research")
-  
+
 - Class: mult_question
-  Output: Researchers hypothesize that higher authortarianism scores are related to lower support for human rights. They recruit 100 subjects and have them fill out an Authortarianism scale and a Support for Human Rights Scale. 
-  AnswerChoices: Naturalistic Observation;Case Study Research;Logical Research;Correlational Research;Between-Groups Research;Experimental Research 
+  Output: Researchers hypothesize that increased usability of an interface is related to higher levels of user engagement. They recruit 100 participants and have them use an interface while collecting data on usability ratings and engagement metrics.
+  AnswerChoices: Naturalistic Observation;Case Study Research;Logical Research;Correlational Research;Between-Groups Research;Experimental Research
   CorrectAnswer: Correlational Research
   AnswerTests: omnitest(correctVal="Correlational Research")
-  
+
 - Class: mult_question
-  Output: A new classroom in France is teaching human rights at an early age. Researchers observe the students classroom discussions and playground activities, taking detailed notes throughout. 
-  AnswerChoices: Naturalistic Observation;Case Study Research;Logical Research;Correlational Research;Between-Groups Research;Experimental Research 
+  Output: A new interactive learning tool is introduced in a university setting. Researchers observe students during class sessions and in informal study groups, taking detailed notes on their interactions with the tool.
+  AnswerChoices: Naturalistic Observation;Case Study Research;Logical Research;Correlational Research;Between-Groups Research;Experimental Research
   CorrectAnswer: Naturalistic Observation
   AnswerTests: omnitest(correctVal="Naturalistic Observation")
 
 - Class: mult_question
-  Output: Researchers hypothesize that people who fear a terrorist attack will be more likely to restrict economic and political freedoms than those who do not fear an attack. They randomly assign half of the participants to read a news article detailing out reports that state their hometown is either highly or not highly likely to be targetted by a terrorist attack in the next six months. They then measure how supportive they are of people assembling in groups and having freedom of religion.
-  AnswerChoices: Naturalistic Observation;Case Study Research;Logical Research;Correlational Research;Between-Groups Research;Experimental Research 
+  Output: Researchers hypothesize that users who are primed with a warning about cybersecurity risks will be more likely to follow secure practices. Participants are randomly assigned to either receive a warning message before using a new online platform or receive no warning, and their adherence to security guidelines is then assessed.
+  AnswerChoices: Naturalistic Observation;Case Study Research;Logical Research;Correlational Research;Between-Groups Research;Experimental Research
   CorrectAnswer: Experimental Research
   AnswerTests: omnitest(correctVal="Experimental Research")

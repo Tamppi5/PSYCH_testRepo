@@ -49,3 +49,5 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 Except as contained in this notice, the name of Kevin R. Carriere & Jason Kilgore shall not be 
 used in advertising or otherwise to promote the sale, use or other dealings in 
 this Software without prior written authorization from Kevin R. Carriere & Jason Kilgore.
+
+Also content was used from https://github.com/tvpollet/Psychology_Statistics

@@ -1,17 +1,20 @@
 - Class: meta
-  Course: PSYCH - Psychological Statistics You Can Handle
+  Course: PsychMetHCI - Psychological Methods in Human-Computer Interaction; adapted from PSYCH (Psychological Statistics You Can Handle)
   Lesson: Orientation to Course
-  Author: Kevin R. Carriere & Jason Kilgore
+  Author: Robin Welsch
   Type: Standard
-  Organization: Washington & Jefferson College
-  Version: 3.0.0
+  Organization: Aalto University
+  Version: 1.0.0
  
 #1
 - Class: text
-  Output: In this course, we hope to provide you with the knowledge and tools to perform fundamental analyses in R, including transforming data, visualizing data, and engaging in various types of hypothesis tests.
+  Output: Welcome to PsychMetHCI- Psychological Methods in Human-Computer Interaction. In this course, you will learn about about psychological research methods and statistics for Human-Computer Interaction. The course is adapted from adapted from PSYCH (Psychological Statistics You Can Handle) by  Kevin R. Carriere & Jason Kilgore.
 
 - Class: text
-  Output: We estimate that each module should take between 10 to 20 minutes to complete. However, to best assist your learning of R, we recommend that you take a bit longer.
+  Output: In the course, we provide you with the knowledge and tools to plan studies and perform fundamental analyses in R, including transforming data, visualizing data, and engaging in various types of hypothesis tests.
+
+- Class: text
+  Output: Each module should take between 10 to 20 minutes to complete.
 
 - Class: text
   Output: Each module will follow the same basic formula.
@@ -57,11 +60,11 @@
   AnswerTests: omnitest(correctExpr='2+2')
   
 - Class: mult_question
-  Output: Other questions may be multiple-choice questions. To answer these, you can choose the number corresponding to the answer or type the answer out yourself. For example, the name of the course is PSYCH. What is the name of the course?
-  AnswerChoices: PSYCH; R Programming; Swirl; Don't Think Too Hard
+  Output: Other questions may be multiple-choice questions. To answer these, you can choose the number corresponding to the answer or type the answer out yourself. For example, the name of the course is PsychMetHCI. What is the name of the course?
+  AnswerChoices: PsychMetHCI; R Programming; Swirl; Don't Think Too Hard
   CorrectAnswer: PSYCH
   AnswerTests: omnitest(correctVal='PSYCH')
-  Hint: Try typing PSYCH or choose the number that represents that answer. 
+  Hint: Try typing PsychMetHCI or choose the number that represents that answer. 
   
 - Class: text
   Output: Finally, other questions will show scripts and ask you to fill in the correct answers. We use these when you need to see how coding is written in a script instead of in the Console.
