@@ -1,6 +1,6 @@
 #paired samples
 
-swirl_options(swirl_logging = TRUE)
+swirl_options(swirl_logging = FALSE)
 
 Masking <- structure(list(X = 1:421, PHASE1_AC_EFF_MASK = c(5L, 1L, 5L, 
                                                        2L, 5L, 2L, 4L, 4L, 4L, 2L, 4L, 3L, 5L, 4L, 4L, 4L, 4L, 5L, 5L, 

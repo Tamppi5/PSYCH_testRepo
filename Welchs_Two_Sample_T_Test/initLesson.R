@@ -1,6 +1,6 @@
 # Welch's Two Sample
 
-swirl_options(swirl_logging = TRUE)
+swirl_options(swirl_logging = FALSE)
 concealed <- structure(list(condition = c("Disclose", "Disclose", "Conceal", 
                                           "Disclose", "Disclose", "Disclose", "Disclose", "Conceal", "Disclose", 
                                           "Conceal", "Conceal", "Disclose", "Disclose", "Conceal", "Disclose", 

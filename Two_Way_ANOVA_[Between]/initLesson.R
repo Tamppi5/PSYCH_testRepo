@@ -1,6 +1,6 @@
 #Two Way ANOVA Between
 
-swirl_options(swirl_logging = TRUE)
+swirl_options(swirl_logging = FALSE)
 
 data <- structure(list(orientation = structure(c(1L, 1L, 1L, 1L, 1L, 
                                                1L, 1L, 1L, 1L, 1L, 1L, 1L, 1L, 1L, 1L, 1L, 1L, 1L, 1L, 1L, 1L, 

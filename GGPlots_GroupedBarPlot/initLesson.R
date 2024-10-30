@@ -1,4 +1,4 @@
-swirl_options(swirl_logging = TRUE)
+swirl_options(swirl_logging = FALSE)
 Paradox <- structure(list(Target = structure(c(2L, 2L, 2L, 2L, 1L, 1L, 2L, 
                                     1L, 1L, 2L, 2L, 1L, 1L, 2L, 1L, 1L, 2L, 2L, 2L, 1L, 1L, 1L, 2L, 
                                     2L, 1L, 2L, 2L, 1L, 2L, 1L, 1L, 1L, 1L, 1L, 1L, 2L, 2L, 1L, 1L, 

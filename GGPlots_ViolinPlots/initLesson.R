@@ -1,4 +1,4 @@
-swirl_options(swirl_logging = TRUE)
+swirl_options(swirl_logging = FALSE)
 Violin <- structure(list(ID = c(102L, 102L, 102L, 102L, 102L, 102L, 102L, 
                                 102L, 102L, 103L, 103L, 103L, 103L, 103L, 103L, 103L, 103L, 103L, 
                                 104L, 104L, 104L, 104L, 104L, 104L, 104L, 104L, 104L, 105L, 105L, 

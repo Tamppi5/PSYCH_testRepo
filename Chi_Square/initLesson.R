@@ -1,5 +1,5 @@
 #Chi Square
-swirl_options(swirl_logging = TRUE)
+swirl_options(swirl_logging = FALSE)
 #chi square cheating or not
 CheatData<- structure(list(repCor = c("Overreported", "Told Truth", "Told Truth", 
                                       "Overreported", "Told Truth", "Told Truth", "Told Truth", "Told Truth", 

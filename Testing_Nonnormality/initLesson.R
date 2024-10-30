@@ -1,4 +1,4 @@
-swirl_options(swirl_logging = TRUE)
+swirl_options(swirl_logging = FALSE)
 
 Stickers <- structure(list(ID = c(78L, 81L, 86L, 87L, 88L, 89L, 90L, 91L, 
                       92L, 102L, 103L, 104L, 105L, 106L, 107L, 108L, 109L, 110L, 111L, 

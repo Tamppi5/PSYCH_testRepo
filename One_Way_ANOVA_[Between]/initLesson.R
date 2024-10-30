@@ -1,4 +1,4 @@
-swirl_options(swirl_logging = TRUE)
+swirl_options(swirl_logging = FALSE)
 
 Solomon <- structure(list(Condition = c("Other-Immersed", "Other-Distanced", 
                                    "Other-Distanced", "Other-Distanced", "Self-Distanced", "Self-Distanced", 

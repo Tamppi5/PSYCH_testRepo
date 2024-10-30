@@ -1,6 +1,6 @@
 #Regression
 
-swirl_options(swirl_logging = TRUE)
+swirl_options(swirl_logging = FALSE)
 
 gamesdf <- structure(list(Condition = c("Selfish", "Selfish", "Selfish", 
                              "Nice", "Selfish", "Selfish", "Selfish", "Nice", "Nice", "Selfish", 

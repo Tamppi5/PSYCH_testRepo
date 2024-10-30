@@ -31,4 +31,4 @@ example <- ggplot2::ggplot(data=data_e, aes(x=men, y=scores, group=highsd)) +
 
 rm(men, highsd, highsd_men, highsd_women, lowsd_men, lowsd_women, scores)
 
-swirl_options(swirl_logging = TRUE)
+swirl_options(swirl_logging = FALSE)

@@ -1,6 +1,6 @@
 #Measures of Central Tendency
 
-swirl_options(swirl_logging = TRUE)
+swirl_options(swirl_logging = FALSE)
 
 
 #baseball <- read.csv("https://kevin-carriere-jyyd.squarespace.com/s/baseball.csv")

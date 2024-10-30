@@ -1,4 +1,4 @@
-swirl_options(swirl_logging = TRUE)
+swirl_options(swirl_logging = FALSE)
 
 activism <- structure(list(TOT = c(3, 4.66666666666667, 4.83333333333333, 
 4.33333333333333, 1, 2.66666666666667, 2, 1, 3.83333333333333, 

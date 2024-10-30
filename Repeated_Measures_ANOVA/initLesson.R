@@ -1,4 +1,4 @@
-swirl_options(swirl_logging = TRUE)
+swirl_options(swirl_logging = FALSE)
 
 HeymanLong <- structure(list(no.without.notice = c(5L, 8L, 2L, 3L, 7L, 2L, 
                7L, 4L, 3L, 1L, 8L, 4L, 4L, 7L, 2L, 6L, 3L, 3L, 5L, 4L, 7L, 7L, 

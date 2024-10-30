@@ -1,6 +1,6 @@
 #Wilcoxon Signed Rank Test
 
-swirl_options(swirl_logging = TRUE)
+swirl_options(swirl_logging = FALSE)
 
 saved <- "Y"
 

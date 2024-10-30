@@ -1,6 +1,6 @@
 # Mann Whitney U Test
 
-swirl_options(swirl_logging = TRUE)
+swirl_options(swirl_logging = FALSE)
 
 memory <-
   structure(list(ContvOld = structure(c(2L, 2L, NA, 1L, 1L, 2L, 
