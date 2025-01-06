@@ -60,11 +60,11 @@
   AnswerTests: omnitest(correctExpr='2+2')
   
 - Class: mult_question
-  Output: Other questions may be multiple-choice questions. To answer these, you can choose the number corresponding to the answer or type the answer out yourself. For example, the name of the course is PsychMetHCI. What is the name of the course?
-  AnswerChoices: PsychMetHCI; R Programming; Swirl; Don't Think Too Hard
+  Output: Other questions may be multiple-choice questions. To answer these, you can choose the number corresponding to the answer or type the answer out yourself. For example, the name of the course is PSYCH. What is the name of the course?
+  AnswerChoices: PSYCH; R Programming; Swirl; Don't Think Too Hard
   CorrectAnswer: PSYCH
   AnswerTests: omnitest(correctVal='PSYCH')
-  Hint: Try typing PsychMetHCI or choose the number that represents that answer. 
+  Hint: Try typing PSYCH or choose the number that represents that answer. 
   
 - Class: text
   Output: Finally, other questions will show scripts and ask you to fill in the correct answers. We use these when you need to see how coding is written in a script instead of in the Console.
