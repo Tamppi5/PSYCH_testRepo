@@ -1,6 +1,6 @@
 # Wilcoxon Sign-Ranked Test
-oldw <- getOption("warn")
-options(warn = -1)
+#oldw <- getOption("warn")
+#options(warn = -1)
 
 
 # Table of Contents to Wilcoxon Signed Rank Test:
@@ -526,6 +526,6 @@ Tobacco |>
 
 
 
-
+#options(warn = oldw)
 saved <- "Y"
-options(warn = oldw)
+
